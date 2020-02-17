@@ -1,0 +1,85 @@
+.logo-image{
+  width:80px;
+  height:150px;
+}
+p{
+  font-size:30px;
+ text-shadow:3px 3px 7px #000000;
+  text-transform:uppercase;
+}
+header{
+   position:fixed;
+  width:100%;
+  display:flex;
+  align-items:center;
+}
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:space-around;
+}
+nav{
+  width:100%;
+}
+.sign-up-page{
+  height:350px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.sign-up-form{
+  text-align:center;
+  margin-bottom:20px;
+}
+.video-page{
+  height:500px;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+.video{
+  text-align:center;
+}
+.features{
+  justify-content:space-around;
+  height:980px;
+  display:flex;
+  align-content:center;
+}
+.features p{
+  text-align:center;
+  font-family:arial;
+  font-weight:bold;
+  font-size:20px;
+  text-shadow:0px 0px 0px #000000;
+}
+.our-partners{
+  justify-content:space-around;
+  height:260px;
+  display:flex;
+  align-content:center;
+  background-repeat:repeat;
+}
+.about-us{
+  padding-top:30px;
+  background-image:url('https://cdn.pixabay.com/photo/2019/02/22/11/02/backdrop-4013302__340.jpg');
+  height:250px;
+  text-align:center;
+  font-family:arial;
+  font-weight:bold;
+  font-size:20px;
+  text-shadow:0px 0px 0px #000000;
+}
+.about-us p{
+    text-transform:none;
+  align-content:center;
+  font-family:arial;
+  font-weight:normal;
+  font-size:20px;
+  text-shadow:0px 0px 0px #000000;
+}
+@media only screen and (max-width: 600px) {
+  nav{
+    display:none;
+  }
+}
